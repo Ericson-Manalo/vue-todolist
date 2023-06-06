@@ -35,6 +35,10 @@ createApp({
 
         toDoRemover(toDoElement){
             this.toDoList.splice(toDoElement, 1);
+        },
+
+        toAddToDoList(toDoNewElement){
+            this.toDoList.push(toDoNewElement);
         }
         
     }

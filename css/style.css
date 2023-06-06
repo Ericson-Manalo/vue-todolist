@@ -27,3 +27,17 @@ ul{
     margin: 0 auto;
 }
 
+div input{
+    border-style: none;
+    border-radius: 3px;
+}
+
+div button{
+    border-style: none;
+    color: white;
+    background-color: #58626C;
+    border-radius: 10px;
+    padding: .4rem;
+    justify-self: end;
+}
+
