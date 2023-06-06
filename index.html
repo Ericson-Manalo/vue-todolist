@@ -21,6 +21,17 @@
             </h1>
         </header>
 
+        <main>
+            <ul class="py-1">
+                <li class="d-flex " v-for="toDoItem in toDoList">
+                    <p class="fs-4 w-100 justify-content-between d-flex" v-if>{{toDoItem.todo}}
+                        <i class="fa-solid fa-trash d-flex align-items-center"></i>
+                    </p>    
+                </li>
+    
+            </ul>
+        </main>
+
 
 
     </div>
