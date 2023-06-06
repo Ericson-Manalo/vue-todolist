@@ -42,9 +42,15 @@ createApp({
                 todo : this.newToDo,
                 done : false
             }
+            if (this.newToDo != 0){
             this.toDoList.push(newToDo);
+
+            }
             this.newToDo ='';
         }
+        
+
+
         
     }
 }).mount('#app');
