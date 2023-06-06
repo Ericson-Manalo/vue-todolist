@@ -22,7 +22,7 @@
         </header>
 
         <main>
-            <ul class="py-1">
+            <ul class="py-1" v-if="toDoList.length > 0">
                 <li class="d-flex" v-for="(toDoItem, index) in toDoList">
                     <p class="fs-4 w-100 justify-content-between d-flex">{{toDoItem.todo}}
                         <i class="fa-solid fa-trash d-flex align-items-center" @click="toDoRemover(index)"></i>
@@ -36,6 +36,12 @@
                     </button>
                 </div>
     
+            </ul>
+
+            <ul v-else="toDoList.length == 0">
+                <h3>
+                    La tua lista è vuota
+                </h3>
             </ul>
         </main>
 
