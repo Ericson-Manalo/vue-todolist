@@ -37,8 +37,13 @@ createApp({
             this.toDoList.splice(toDoElement, 1);
         },
 
-        toAddToDoList(toDoNewElement){
-            this.toDoList.push(toDoNewElement);
+        toAddToDoList(){
+            const newToDo={
+                todo : this.newToDo,
+                done : false
+            }
+            this.toDoList.push(newToDo);
+            this.newToDo ='';
         }
         
     }
