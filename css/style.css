@@ -1,0 +1,29 @@
+ul li{
+    list-style: none;
+}
+
+li p{
+    padding: .6rem;
+}
+
+li p.line-through{
+    text-decoration-line: line-through;
+}
+
+li p:hover{
+    background-color: #ECC1A1;
+    color: white;
+    border-bottom: 1px solid #58626C;
+}
+
+p i{
+    font-size: 1.2rem;
+}
+
+ul{
+    padding: 1rem;
+    background-color: #F5F1EE;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
