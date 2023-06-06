@@ -26,10 +26,16 @@ createApp({
                 todo: 'Fare la spesa',
                 done:false,
                 },
-            ]
+            ],
+
+            newToDo : '',
         }
     },
     methods: {
+
+        toDoRemover(toDoElement){
+            this.toDoList.splice(toDoElement, 1);
+        }
         
     }
 }).mount('#app');
