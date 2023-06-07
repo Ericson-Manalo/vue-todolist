@@ -6,7 +6,7 @@ li p{
     padding: .6rem;
 }
 
-li p.line-through{
+li p.done{
     text-decoration-line: line-through;
 }
 
@@ -16,8 +16,9 @@ li p:hover{
     border-bottom: 1px solid #58626C;
 }
 
-p i{
+div i{
     font-size: 1.2rem;
+    padding: .4rem;
 }
 
 ul{

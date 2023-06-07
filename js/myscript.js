@@ -47,6 +47,10 @@ createApp({
 
             }
             this.newToDo ='';
+        },
+
+        statusCheck(indexElement){
+            this.toDoList[indexElement].done = !this.toDoList[indexElement].done;
         }
         
 
